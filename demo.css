@@ -135,7 +135,7 @@ code,
 pre,
 samp {
   white-space: pre-wrap;
-  font-family: consolas, "DejaVu Sans Mono", courier, monospace;
+  font-family: consolas, "Neucha", courier, monospace;
 }
 code {
   line-height: 1;
@@ -154,7 +154,7 @@ body {
 
 body {
   background-color: #fff;
-  font-family: "Varela Round", sans-serif;
+  font-family: "Neucha", sans-serif;
 }
 
 a,
