@@ -38,10 +38,18 @@
       return decodeURIComponent(name[1]);
 };
 
+function getLang()
+{
+ if (navigator.languages != undefined)
+ return navigator.languages[0];
+ else
+ return navigator.language;
+};
+
   var appStoreButton = 'Open App Store';
   var appButton = 'Open the app';
 
-    if (get('lang') == 'ru') {
+    if (getLang() == 'ru-RU') {
       appStoreButton = 'Открыть App Store';
       appButton = 'Открыть приложение';
       document.getElementById('head2').innerHTML = 'Добро пожаловать в Saint | Petersburg';
